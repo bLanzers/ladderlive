@@ -1,0 +1,105 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css);
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wrapper {
+  width: 100px;
+  height: 400px;
+  padding: 20px;
+  background: #ccc;
+  display: flex;
+  margin: 20px 2px;
+}
+.col-title {
+  text-transform: uppercase;
+}
+.scroll-bar {
+  width: 30px;
+  height: 400px;
+  background: #fff;
+  overflow: auto;
+  margin-left: 50px;
+}
+.scroll-bar:first-child {
+  margin-left: 0px;
+}
+.force-overflow {
+  width: 100%;
+  height: 600px;
+  margin-right: 10px;
+}
+#style-1::-webkit-scrollbar {
+  width: 10px;
+  background-color: #000;
+  border-radius: 5px;
+}
+#style-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+#style-1::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 5px;
+}
+#style-2::-webkit-scrollbar {
+  width: 10px;
+  background: #000;
+}
+#style-2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+  background: #f5f5f5;
+}
+#style-2::-webkit-scrollbar-thumb {
+  background: #f50;
+  background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+}
+#style-3::-webkit-scrollbar {
+  width: 10px;
+  background: #000;
+}
+#style-3::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+  background: #f4f4f4;
+}
+#style-3::-webkit-scrollbar-thumb {
+  background: #1baaae;
+  background-image: -webkit-linear-gradient(20deg, rgba(255, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 75%, transparent 75%);
+}
+#style-4::-webkit-scrollbar {
+  width: 10px;
+}
+#style-4::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+#style-4::-webkit-scrollbar-thumb {
+  background: #2c376e;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.2) 50%, transparent 50%);
+}
+#style-5::-webkit-scrollbar {
+  width: 10px;
+}
+#style-5::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.5);
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+#style-5::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #999;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#style-5::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/*# sourceMappingURL=styles.css.map*/
